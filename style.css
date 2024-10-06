@@ -1,0 +1,34 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: red;
+  background-image: radial-gradient(circle, orange, purple, gray, orange);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main {
+  width: 100vw;
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  object-fit: contain;
+  height: 100%;
+  width: 80%;
+}
